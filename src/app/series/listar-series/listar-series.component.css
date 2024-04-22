@@ -1,0 +1,16 @@
+/*Bootstrap para que el resultado final salga lo más parecido a la Fig. 1*/
+.table {
+  width: 50%;
+  margin-left: 5%;
+}
+
+.table-striped tbody td:nth-child(odd) {/*Filas impares */  
+  background-color: #f2f2f2;
+}
+.table-striped tbody td:nth-child(even) {/*Filas pares */  
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+}

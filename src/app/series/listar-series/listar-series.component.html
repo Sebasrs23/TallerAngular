@@ -1,0 +1,23 @@
+<div class="container">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Channel</th>
+        <th>Sessions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let serie of series">
+        <td style="font-weight: bold;">{{ serie.id }}</td>
+        <td><a href="#">{{ serie.name }}</a></td>
+        <td>{{ serie.channel }}</td>
+        <td>{{ serie.seasons }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h6 id="sumSeasons" style="margin-left: 5%;">Seasons average: {{promSeries}}</h6>
+
+</div>
